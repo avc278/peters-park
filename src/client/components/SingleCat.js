@@ -14,7 +14,19 @@ export class DisconnectedSingleCat extends React.Component {
     render() {
         return (
         <div className='single-cat'>
-
+            <h2>{this.props.name}</h2>
+            <img src={this.props.imageUrl}></img>
+            <ul className='toys'>
+                {this.props.toyRatings.map( toy => {
+                    return <li>{toy.name}</li>
+                })}
+            </ul>
+            <div className='friends'>
+                <h3>Friends</h3>
+                {this.props.friends.map( friend => {
+                    return <CatCard key={friend.id} id={friend.id} name={friend.name}/>
+                })}
+            </div>
         </div >
         )
     }
