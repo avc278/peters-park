@@ -6,12 +6,11 @@ import { Link } from 'react-router-dom' // hint, you may want to use this
 // Check AllCats specs for what is being checked
 
 const CatCard = (props) => {
-  return (
-    <div class='cat-card'>
-      YOUR CAT CARD CODE HERE
-
-    </div>
-  )
+    return (
+        <div class='cat-card'>
+            YOUR CAT CARD CODE HERE
+        </div>
+    )
 }
 
 export default CatCard

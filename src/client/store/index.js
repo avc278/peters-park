@@ -10,15 +10,14 @@ import cat from './cat'
 import cats from './cats'
 
 const reducer = combineReducers({
-  cats,
-  cat,
+    cats,
+    cat,
 })
 const middleware = composeWithDevTools(
-  applyMiddleware(thunkMiddleware, createLogger({ collapsed: true }))
+    applyMiddleware(thunkMiddleware, createLogger({ collapsed: true }))
 )
 const store = createStore(reducer, middleware)
 
 export default store
 export * from './cats'
 export * from './cat'
-

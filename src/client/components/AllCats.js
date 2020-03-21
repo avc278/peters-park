@@ -12,24 +12,24 @@ import CatCard from './CatCard'
 // don't worry about it too much
 export class DisconnectedAllCats extends React.Component {
 
-  render() {
-    return (
-      <div className='all-cats'>
-      </div>
-    )
-  }
+    render() {
+        return (
+            <div className='all-cats'>
+            </div>
+        )
+    }
 }
 
 export const mapStateToProps = (state) => {
-  return {
+    return {
 
-  }
+    }
 }
 
 export const mapDispatchToProps = (dispatch) => {
-  return {
+    return {
 
-  }
+    }
 }
 
 // don't touch this line

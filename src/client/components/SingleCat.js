@@ -11,25 +11,25 @@ import CatCard from './CatCard'
 // you want the default export
 // don't worry about it too much
 export class DisconnectedSingleCat extends React.Component {
-  render() {
-    return (
-      <div className='single-cat'>
+    render() {
+        return (
+        <div className='single-cat'>
 
-      </div >
-    )
-  }
+        </div >
+        )
+    }
 }
 
 export const mapStateToProps = (state) => {
-  return {
+    return {
 
-  }
+    }
 }
 
 export const mapDispatchToProps = (dispatch) => {
-  return {
+    return {
 
-  }
+    }
 }
 
 // don't touch this line

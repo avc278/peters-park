@@ -11,22 +11,21 @@ const initialState = null
 
 // ACTION CREATORS
 export const loadCats = data => ({
-  // some stuff might go in here? hmmmmm.....
+    // some stuff might go in here? hmmmmm.....
 })
 
 
 // THUNK CREATORS
 export const fetchCats = () => async dispatch => {
-  // YOUR CODE HERE
+    // YOUR CODE HERE
 }
 
 // REDUCER
 // just modify inside the switch statement by adding cases.
 // don't modify what the function takes
 export default function (state = initialState, action) {
-  switch (action.type) {
+    switch (action.type) {
 
-
-    default: return state;
-  }
+        default: return state;
+    }
 }
